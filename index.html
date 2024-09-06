@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website-Luka</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2d436da07d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <!--image logo goes here-->
+        <img src="images/luka-log.png" alt="logo" class="logo">
+        <ul id="sidemenu">
+          <li> <a href="#header">Home</a></li>
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#service">Service</a></li>
+          <li> <a href="#portfolio">Portfolio</a></li>
+          <li> <a href="#contact">Contact</a></li>
+          <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+       
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p> - Full Stack Software Engineering student at alx <br> - Hydraulic Engineer</p>
+          <h1>Hi, i'm <span>Luka Gatkuoth</span> <br>from Ethiopia</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- about section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-column-1">
+          <img src="images/gatkuoth2.png" alt="Luka Gatkuoth's picture">
+        </div>
+        <div class="about-column-2">
+          <h1 class="subtitle-1">About me</h1>
+          <p>Hi, I'm Luka Gatkuoth, a front-end developer and hydraulic engineer with passion for creating user-friendly web applications that bridge technology and engineering. With a background in hydraulic systems and strong proficiency in HTML, CSS and JavaScript, I enjoy crafting intuitive interfaces that enhance user experience. My unique blend of technical skill allow me to approach project with a comprehensive perspective, ensuring both functionality and aesthetic appeal. 
+            <br><small>Let's connect and innovate together!</small></p>
+          <div class="tab-titles">
+            <p class="tab-link active-link" onclick="opentab('skill')">Skill</p>
+            <p class="tab-link" onclick="opentab('experience')">Experience</p>
+            <p class="tab-link" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-content active-tab" id="skill">
+            <ul>
+              <li><span>UI/UX</span><br>Designing web app interfaces</li>
+              <li><span>Web development</span><br>Web app development</li>
+              <li><span>Hydraulic Engineering</span><br>Design, construction, and maintenance of system and structures that manage water resources</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="experience">
+            <ul>
+              <li><span>2020-Current</span><br>Lecturer at Gambella University</li>
+              <li><span>2017-2019</span><br>Assistant WASH Officer at Action for the Needy in Ethiopia(ANE)</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="education">
+            <ul>
+              <li><span>2024</span><br>Full Stack Software Engineering from ALX</li>
+              <li><span>2023</span><br> MSc-Hydraulic Engineering from Arba Minch University</li>
+              <li><span>2017</span><br> BSc-Water Resources and Hydraulic Engineering from University of Gonder</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+<!-- Service section-->
+ <div id="service">
+  <div class="container">
+    <h1 class="subtitle-1">Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web design</h2>
+        <p> Creating visually appealing and user-friendly websites. It involves the layout, color schemes, typography, and overall aesthetics of a site to enhance user experience and engagement.
+        <br>Please note that the projects showcased in the 'Services and Work section' are samples; my real work will be available soon!
+        </p>
+        <a href="#">Learn more!</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>IU/UX</h2>
+        <p>Creating intuitive and engaging user experiences for digital products.<br>Please note that the projects showcased in the 'Services and Work section' are samples; my real work will be available soon!</p>
+        <a href="#">Learn more!</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App design</h2>
+        <p> Creating user-friendly and visually appealing interfaces for mobile and web applications. It encompasses the layout, functionality, and overall user experience, ensuring that apps are intuitive and engaging. </p>
+        <a href="#">Learn more!</a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-- portfolio section -->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle-1">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png" alt="work1">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connect you with people around the world. Download it from play store</p>
+          <a href="#"><i class="fa-duotone fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png" alt="work2">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>The app connect you with people around the world. Download it from play store</p>
+          <a href="#"><i class="fa-duotone fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png" alt="work3">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connect you with people around the world. Download it from play store</p>
+          <a href="#"><i class="fa-duotone fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+ </div>
+
+ <!-- contact section -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+         <h1 class="sub-title">Contact me</h1>
+         <p><i class="fa-regular fa-envelope"></i> lukagatkuoth4@gmail.com</p>
+         <p><i class="fa-solid fa-phone"></i> +251919879506</p>
+         <div class="social-icons">
+          <a href="https://www.facebook.com/Bukgatkuoth" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/lukagatkuoth" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/luka-gatkuoth/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Luka-Gatkuoth" target="_blank"><i class="fa-brands fa-github"></i></a>
+         </div>
+         <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Enter Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; 2024 Personal Portfolio Website-Luka Gatkuoth. All Rights Reserved.</p>
+    </div>
+  </div>
+
+ <!--JavaScript from external  -->
+ <script src="script.js"></script>
+  
+  <!-- form script -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxFJYE9W-KeCRcOMJkd53sRTdAdIaBZbLKFpye1V70wsEYS8SYgEkdp8bAJGvB4C4ZfpQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => { 
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){msg.innerHTML = ""}, 5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
