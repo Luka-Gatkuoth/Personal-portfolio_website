@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lukagatkuoth.vercel.app/sitemap.xml
